@@ -2,7 +2,6 @@
 #
 language: c
 compiler:
-  - gcc
   - clang
 
 # The build machines are Ubuntu 12.04 x64
