@@ -14,9 +14,6 @@ before_install:
   - sudo apt-get install -y libperl-dev
   - sudo apt-get install -y libevent-dev
   
-
-# TODO: fix tests so they don't depend on /usr/local/nginx/logs/
-#       so we can run `make`, `make test`, `make install`.
-
+# travis-ci Job
 script:
   - make
