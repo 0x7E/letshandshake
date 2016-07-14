@@ -154,7 +154,7 @@ int main(int argc, char *argv[]) {
     r1.fragment.client_hello.session_id_length[0]=0;
     r1.fragment.client_hello.cipher_suite_length[0]=0;
     r1.fragment.client_hello.cipher_suite_length[1]=sizeof r1.fragment.client_hello.cipher_suite_list;
-    //Cipher Suite List : https://www.thesprawl.org/research/tls-and-ssl-cipher-suites/
+    /* Cipher Suite List : https://www.thesprawl.org/research/tls-and-ssl-cipher-suites/ */
     r1.fragment.client_hello.cipher_suite_list[0]=0x00;
     r1.fragment.client_hello.cipher_suite_list[1]=0x0a; /* SSL_RSA_WITH_3DES_EDE_CBC_SHA */
     r1.fragment.client_hello.cipher_suite_list[2]=0x00;
